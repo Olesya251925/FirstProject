@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   pull_request:
-    branches: [ "master", "main" ]
+    branches: [ "master", "main1",  "main2", "main3", "main4", "main5" ]
   push:
-    branches: [ "master", "main" ]
+    branches: [ "master", "main1",  "main2", "main3", "main4", "main5" ]
 
 jobs:
   build-test:
